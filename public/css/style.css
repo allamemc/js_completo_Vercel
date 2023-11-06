@@ -1,0 +1,67 @@
+body {
+  background-color: #d7d7d7;
+}
+
+h1 {
+  color: #000000;
+}
+
+article a:link {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #91148f;
+  border: 1px solid #fff;
+}
+
+div, #caja3, #caja2, #caja1 {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+#caja1 {
+  padding: 40px;
+  background-color: yellow;
+}
+
+#caja2 {
+  border: 2px dotted white;
+  background-color: rgb(23, 116, 68);
+}
+
+#caja3 {
+  background-color: rgb(205, 43, 188);
+}
+
+div, #caja1, #caja2, #caja3 {
+  color: rgb(255, 14, 147);
+}
+div ul li a, #caja1 ul li a, #caja2 ul li a, #caja3 ul li a {
+  color: rgb(13, 6, 45);
+}
+div ul li a:hover, #caja1 ul li a:hover, #caja2 ul li a:hover, #caja3 ul li a:hover {
+  color: blue;
+}
+div ul li a:visited, #caja1 ul li a:visited, #caja2 ul li a:visited, #caja3 ul li a:visited {
+  color: rgb(0, 0, 0);
+}
+
+div#primera {
+  background-color: #91148f;
+  width: 50%;
+}
+
+div#segunda {
+  background-color: #ec83ea;
+  width: 20%;
+}
+
+div#tercera {
+  background-color: #5a3559;
+  width: 33.3333333333%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "routes": [
+      { "handle": "filesystem" },
+      {
+        "src": "/public/(.*)",
+        "status": 200,
+        "headers": { "Cache-Control": "public, max-age=3600" }
+      }
+    ]
+  }
+  
